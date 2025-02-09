@@ -85,12 +85,15 @@ Install dependencies:
 npm install
 Create a .env file in the root directory with the following values:
 
-PORT=8000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=todo_db
-JWT_SECRET=your_jwt_secret
+DB_TYPE = "mysql"
+DB_HOST = "localhost"
+DB_USERNAME = "root"
+DB_PASSWORD = 
+DB_PORT = 3306
+DB_NAME = "todo_list"
+PORT = 8000
+SECRET_KEY = "todo_list"
+EXPIRE_TIME = 3600
 Run database migrations:
 
 npm run build
