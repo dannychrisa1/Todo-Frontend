@@ -1,0 +1,39 @@
+ {todos && todos.length > 0 ? 
+                            (
+                               todos.map((todo) => (
+                                
+                               ))
+
+                            ):(
+                                <p className="text-gray-400">No users available</p>
+                            )
+                            
+                        }
+
+
+
+                         <tr className="shadow-custom-inset">
+                        <td className="py-4 px-6">
+                            <div className="flex items-center gap-1">
+                                <span className="text-sm text-black-950">Coding</span>
+                            </div>
+                        </td>
+                        <td className="py-3 px-7 w-[25%]">
+                            <span className="text-sm text-black-950">Develop sign up page</span>
+                        </td>
+                        <td className="py-3 px-5">
+                            <span className="text-sm text-yellow-600 px-4 py-1 bg-yellow-300 rounded-full">pending</span>
+                        </td>
+                        <td className="py-3 px-8">
+                            <span className="text-sm text-black-950">30/08/2025</span>
+                        </td>
+                        <td className="py-3 px-8">
+                            <Button type="button" className="custom-green-bg px-2 py-2 rounded-lg text-sm text-white">Complete</Button>
+                        </td>
+                        <td className="py-3 px-8">
+                            <Button type="button" className="custom-bg px-4 py-2 rounded-lg text-sm text-white">Edit</Button>
+                        </td>
+                        <td className="py-3 px-4">
+                            <Button type="button" className="custom-red-bg px-2 py-2 rounded-lg text-sm text-white">Delete</Button>
+                        </td>
+                    </tr>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   @apply font-title;
+}
+.custom-bg{
+    @apply bg-b-gradient border-b-border shadow-shadow-1 hover:shadow-shadow-2 
+  }
+  .custom-red-bg{
+    @apply bg-r-gradient border-r-border shadow-r-shadow-1 hover:shadow-r-shadow-2 
+  }
+  .custom-yellow-bg{
+    @apply bg-y-gradient border-y-border shadow-y-shadow-1 hover:shadow-y-shadow-2 
+  }
+  .custom-green-bg{
+    @apply bg-g-gradient border-g-border shadow-g-shadow-1 hover:shadow-g-shadow-2 
+  }
+
+
+  tbody {
+    border-radius: 20px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
