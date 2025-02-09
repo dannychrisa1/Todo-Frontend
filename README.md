@@ -1,46 +1,101 @@
-A simple Todo application built with React, TypeScript, and Express.
+# 📝 Todo App – Frontend
 
-## Installation
+A modern **React & TypeScript** Todo application with a sleek UI, authentication, and task management features.
+
+## 🚀 Features
+
+- 🔒 Authentication with **JWT**
+- 📌 Task management (Create, Read, Update, Delete)
+- 🎨 Beautiful UI with **Tailwind CSS**
+- ⚡ State management with **Redux Toolkit**
+- 🌍 API integration with **Axios**
+- 🛠️ Smooth animations with **Framer Motion**
+
+## 🛠️ Tech Stack
+
+- **React 18 + TypeScript**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **React Router**
+- **Axios**
+- **Framer Motion**
+
+
+## 🏗️ Installation & Setup
+
+### Prerequisites
+
+- **Node.js** (v16+)
+- Backend API (_Ensure the backend is running_)
+
+### Steps
 
 1. Clone the repository:
-   ```bash
+   ```sh
    git clone https://github.com/dannychrisa1/Todo-Frontend.git
-   cd Todo-Frontend
-#2 Set up the frontend:
+   cd todo-app
+Install dependencies:
 
-cd todo-app
+##npm install
 
+## npm start
+The frontend will be available at http://localhost:3000.
+
+🧪 Running Tests
+Run the frontend tests:
+
+npm test
+
+## **Backend README (`README.md`)**  
+
+```md
+# 📝 Todo App – Backend
+
+A secure and efficient **Node.js + Express.js** backend for the Todo application, featuring authentication and database management with **MySQL & TypeORM**.
+
+## 🚀 Features
+
+- 🔒 JWT-based authentication
+- 🛠️ CRUD operations for tasks
+- 🔍 Input validation with **express-validator**
+- 🗄️ Database integration with **MySQL & TypeORM**
+
+## 🛠️ Tech Stack
+
+- **Node.js + Express.js**
+- **TypeScript**
+- **MySQL + TypeORM**
+- **JWT Authentication**
+- **Bcrypt.js** for password hashing
+
+## 🏗️ Installation & Setup
+
+### Prerequisites
+
+- **Node.js** (v16+)
+- **MySQL Database**
+
+### Steps
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dannychrisa1/Todo-Backend.git
+   cd UPDATED-HIRING-TASK
+Install dependencies:
 npm install
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Create a .env file in the root directory with the following values:
 
+PORT=8000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=todo_db
+JWT_SECRET=your_jwt_secret
+Run database migrations:
 
+npm run build
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-# Set up the backend:
-  git clone https://github.com/dannychrisa1/Todo-Backend.git
-   cd Todo-Backend
-#2 Set up the frontend:
-
-cd UPDATED-HRING-TASK
-
-npm install
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm run start
 
 
 
