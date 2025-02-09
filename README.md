@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# 📝 Todo App – Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **React & TypeScript** Todo application with a sleek UI, authentication, and task management features.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- 🔒 Authentication with **JWT**
+- 📌 Task management (Create, Read, Update, Delete)
+- 🎨 Beautiful UI with **Tailwind CSS**
+- ⚡ State management with **Redux Toolkit**
+- 🌍 API integration with **Axios**
+- 🛠️ Smooth animations with **Framer Motion**
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 18 + TypeScript**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **React Router**
+- **Axios**
+- **Framer Motion**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## 🏗️ Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- **Node.js** (v16+)
+- Backend API (_Ensure the backend is running_)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dannychrisa1/Todo-Frontend.git
+   cd todo-app
+Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##npm install
 
-### `npm run eject`
+## npm start
+The frontend will be available at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🧪 Running Tests
+Run the frontend tests:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## **Backend README (`README.md`)**  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```md
+# 📝 Todo App – Backend
 
-## Learn More
+A secure and efficient **Node.js + Express.js** backend for the Todo application, featuring authentication and database management with **MySQL & TypeORM**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 🔒 JWT-based authentication
+- 🛠️ CRUD operations for tasks
+- 🔍 Input validation with **express-validator**
+- 🗄️ Database integration with **MySQL & TypeORM**
+
+## 🛠️ Tech Stack
+
+- **Node.js + Express.js**
+- **TypeScript**
+- **MySQL + TypeORM**
+- **JWT Authentication**
+- **Bcrypt.js** for password hashing
+
+## 🏗️ Installation & Setup
+
+### Prerequisites
+
+- **Node.js** (v16+)
+- **MySQL Database**
+
+### Steps
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dannychrisa1/Todo-Backend.git
+   cd UPDATED-HIRING-TASK
+Install dependencies:
+npm install
+Create a .env file in the root directory with the following values:
+
+DB_TYPE = "mysql"
+DB_HOST = "localhost"
+DB_USERNAME = "root"
+DB_PASSWORD = 
+DB_PORT = 3306
+DB_NAME = "todo_list"
+PORT = 8000
+SECRET_KEY = "todo_list"
+EXPIRE_TIME = 3600
+Run database migrations:
+
+npm run build
+
+npm run start
+
+
+
